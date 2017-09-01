@@ -1,0 +1,28 @@
+{
+  "name": "follownet",
+  "version": "0.0.1",
+  "description": "Get follower and followee data for a set of Twitter user to do analysis on common users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/striblab/follownet.git"
+  },
+  "author": "Alan Palazzolo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/striblab/follownet/issues"
+  },
+  "homepage": "https://github.com/striblab/follownet#readme",
+  "dependencies": {
+    "d3-dsv": "^1.0.7",
+    "debug": "^3.0.1",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "object-hash": "^1.1.8",
+    "twitter": "^1.7.1"
+  }
+}
